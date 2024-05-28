@@ -8,9 +8,6 @@
 name: Java CI with Gradle
 
 on:
-  schedule:
-    - cron: '* * * * *'  # Runs every day at midnight UTC
-on:
   push:
     branches: [ "main" ]
   pull_request:
